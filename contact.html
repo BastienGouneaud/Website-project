@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="DUSOLEIL & GOUNEAUD">
+    <link rel="stylesheet" href="styles/contact.css">
+    <title>INRS - Contact</title>
+  </head>
+  <body>
+    <a href="index.html"><img id="logo" src="media/inrs.png" alt="inrs" style="float:left;"></a>
+    <div id="menu">
+      <!--Partie 1 - Sommaire-->
+      <nav class="menu-nav">
+        <ul>
+          <li class="btn">
+            <a href="index.html">Accueil</a>
+          </li>
+          <li class="btn">
+            <a href="news.html">Actualité</a>
+          </li>
+          <li class="btn">
+            <a href="galerie.html">Galerie</a>
+          </li>
+          <li class="btn">
+            <a href="lancement.html">Lancements</a>
+          </li>
+          <li class="btn">||<span id="vertical_sep"></span></li>
+          <li class="btn">
+            <a href="contact.html">Contact</a>
+          </li>
+          <li class="btn">
+            <a href="apropos.html">À propos</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="content">
+      <form action="mailto:" method="post" enctype="text/plain" id="form_contact">
+        <h2>Formulaire de contact</h2><br>
+        <div id="coordonnes">
+          <label for="name">Nom : </label>
+          <input type="text" name="name" id="name"><br><span id="er_name"></span><br>
+          <label for="tel">Téléphone : </label>
+          <input type="tel" name="tel" id="tel"><br><span id="er_tel"></span><br>
+          <label for="mail">Adresse e-mail : </label>
+          <input type="email" name="mail" id="mail"><br><span id="er_mail"></span><br>
+        </div>
+        <textarea name="message" rows="10" cols="90" id="message"></textarea><br>
+        <input type="button" name="valider" value="Envoyer" class="bretour" onclick="valide()">
+        <input type="reset" name="effacer" value="Effacer" class="bretour">
+      </form>
+      <hr>
+    </div>
+    <form>
+      <input type="button" value="Retour" onclick="history.back()" class="bretour">
+    </form>
+    <script src="javascript/contact.js"></script>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="DUSOLEIL & GOUNEAUD">
+    <link rel="stylesheet" href="styles/apropos.css">
+    <title>INRS - À propos</title>
+  </head>
+  <body>
+    <a href="index.html"><img id="logo" src="media/inrs.png" alt="inrs" style="float:left;"></a>
+    <div id="menu">
+      <!--Partie 1 - Sommaire-->
+      <nav class="menu-nav">
+        <ul>
+          <li class="btn">
+            <a href="index.html">Accueil</a>
+          </li>
+          <li class="btn">
+            <a href="news.html">Actualité</a>
+          </li>
+          <li class="btn">
+            <a href="galerie.html">Galerie</a>
+          </li>
+          <li class="btn">
+            <a href="lancement.html">Lancements</a>
+          </li>
+          <li class="btn">||<span id="vertical_sep"></span></li>
+          <li class="btn">
+            <a href="contact.html">Contact</a>
+          </li>
+          <li class="btn">
+            <a href="apropos.html">À propos</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div id="content">
+      <h2>Sources</h2>
+      <table id="tableau">
+        <thead>
+          <tr>
+            <th>
+              <table id="tableauchoix">
+                <tr>
+                  <td>Types de contenu</td>
+                  <td>Pages du site</td>
+                </tr>
+              </table>
+            </th>
+            <th>Index</th>
+            <th>News</th>
+            <th>Gallerie</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Image</td>
+            <td>/</td>
+            <td class="justify">
+              <ul>
+                <li>
+                  <a href="https://1.bp.blogspot.com/--g8sETQuSL0/X6HQvhNKcOI/AAAAAAABcgE/0NuQwJzLbPAct1skBS5gzwEv_FoDKqYVwCLcBGAsYHQ/w200-h200/F15-Planet-Canon-In-Focus.png">Electron "In focus"</a>
+                </li>
+                <li>
+                  <a href="https://www.fromspacewithlove.com/wp-content/uploads/2018/07/cnsa.jpg">CNSA</a>
+                </li>
+                <li>
+                  <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Roscosmos_logo_en.svg/langfr-300px-Roscosmos_logo_en.svg.png">Roscosmos</a>
+                </li>
+              </ul>
+            </td>
+            <td class="justify">
+              <ul>
+                <li>
+                  <a href="https://www.nasa.gov/sites/default/files/styles/image_card_4x3_ratio/public/thumbnails/image/iss064e002872.jpg">San Francisco</a>
+                </li>
+                <li>
+                  <a href="https://www.nasa.gov/sites/default/files/styles/image_card_4x3_ratio/public/thumbnails/image/halloween_sun_2014_2k.jpg">Jack-O-lantern</a>
+                </li>
+                <li>
+                  <a href="https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/neutron_star_merger_still_3.png">Etoile à Neutrons</a>
+                </li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Vidéo</td>
+            <td class="justify">
+              <ul>
+                <li>
+                  <a href="https://www.youtube.com/watch?v=A0FZIwabctw">Falcon Heavy & Starman</a>
+                </li>
+              </ul>
+            </td>
+            <td>/</td>
+            <td>/</td>
+          </tr>
+          <tr>
+            <td>Audio</td>
+            <td>/</td>
+            <td>/</td>
+            <td>/</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4">Ce site a été réalisé dans le cadre d'un projet pour l'<a href="https://www.ubfc.fr/">UBFC</a></td>
+          </tr>
+        </tfoot>
+      </table>
+      <hr>
+      <canvas id="canvas" width="750" height="300"></canvas><br>
+      <button type="button" class="bretour" name="button" onclick="bezier()">Tracer courbe virage gravitationnel</button>
+      <p id="explications">Voici la courbe représentative d'une fusée au lancement. On peut apercevoir que sa trajectoire est courbée puisque, pour atteindre l'orbite basse, il faut atteindre une vitesse horizontale d'environ 7600m/s. Pour tracer cette courbe nous avons utilisé une courbe de bézier avec pour point de départ les coordonnées (0,300), un point de contrôle avec pour coordonnées (0,200), puis un autre avec les coordonnées (200,150) et un point final avec pour coordonnées (750,75).</p>
+      <hr>
+    </div>
+    <form>
+      <input type="button" value="Retour" onclick="history.back()" class="bretour">
+    </form>
+    <script src="javascript/apropos.js"></script>
+  </body>
+</html>

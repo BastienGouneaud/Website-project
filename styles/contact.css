@@ -1,0 +1,117 @@
+html{
+  font-family: arial;
+  padding: 0%;
+  margin: 0%;
+}
+
+body{
+  margin: 0%;
+  padding: 0%;
+}
+
+nav.menu-nav ul li.btn{
+	display: inline-block;
+}
+
+nav.menu-nav ul li.btn a{
+	text-decoration: none;
+	color: #fff;
+  /*color: #000;*/
+	background: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 50px;
+	padding-bottom: 5px;
+	margin-right: 20px;
+  font-weight: bold;
+}
+
+nav.menu-nav ul li.btn:hover a{
+  color: #aaa;
+	transition:0.3s all;
+}
+
+nav{
+  margin-right: 5%;
+}
+
+.btn{
+  color: #fff;
+}
+
+#incomplet{
+  border-color: red;
+}
+
+#vertical_sep{
+  margin-right: 10px;
+}
+
+#menu{
+  text-align: right;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #86b3d3;
+  width: 100%;
+}
+
+#logo{
+  padding-top: 0%;
+  margin-top: 1%;
+  margin-left: 20%;
+  height: 200px;
+}
+
+#form_contact{
+  margin-top: 2%;
+}
+
+#coordonnes{
+  text-align: justify;
+  margin-left: 38%;
+}
+
+#invalide{
+
+}
+
+.content{
+  margin-left: 20%;
+  width: 60%;
+}
+
+form{
+  text-align: center;
+}
+
+.bretour{
+  border: none;
+  background: none;
+  color: #000;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.bretour:focus{
+  color: #86b3d3;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.bretour:hover{
+  color: #86b3d3;
+  border: none;
+  background: none;
+  transition:0.3s all;
+  cursor: pointer;
+}
+
+#message{
+  resize: none;
+}
+
+#er_tel, #er_name, #er_mail{
+  color: red;
+  margin-left: 10px;
+}

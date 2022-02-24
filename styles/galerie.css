@@ -1,0 +1,145 @@
+html{
+  font-family: arial;
+  padding: 0%;
+  margin: 0%;
+}
+
+body{
+  margin: 0%;
+  padding: 0%;
+}
+
+nav.menu-nav ul li.btn{
+	display: inline-block;
+}
+
+nav.menu-nav ul li.btn a{
+	text-decoration: none;
+	color: #fff;
+  /*color: #000;*/
+	background: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 50px;
+	padding-bottom: 5px;
+	margin-right: 20px;
+  font-weight: bold;
+}
+
+nav.menu-nav ul li.btn:hover a{
+  color: #aaa;
+	transition:0.3s all;
+}
+
+nav{
+  margin-right: 5%;
+}
+
+.btn{
+  color: #fff;
+}
+
+#vertical_sep{
+  margin-right: 10px;
+}
+
+#menu{
+  text-align: right;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #86b3d3;
+  width: 100%;
+}
+
+#logo{
+  padding-top: 0%;
+  margin-top: 1%;
+  margin-left: 20%;
+  height: 200px;
+}
+
+.content{
+  margin-left: 20%;
+  width: 60%;
+}
+
+#photo1{
+  position: relative;
+  z-index: 1;
+  padding: 2%;
+}
+
+#photo1 img{
+  width: 400px;
+}
+
+#textephoto1{
+  position: absolute;
+  padding-left: 430px;
+  bottom: 110px;
+}
+
+#photo2{
+  position: relative;
+  z-index: 1;
+  padding: 2%;
+}
+
+#photo2 img{
+  width: 300px;
+  margin-left: 50px
+}
+
+#textephoto2{
+  position: absolute;
+  padding-left: 430px;
+  bottom: 130px;
+}
+
+#photo3{
+  position: relative;
+  z-index: 1;
+  padding: 2%;
+}
+
+#photo3 img{
+  width: 400px;
+}
+
+#textephoto3{
+  position: absolute;
+  padding-left: 430px;
+  bottom: 70px;
+}
+
+audio, #textsound1{
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+form{
+  text-align: center;
+}
+
+#bretour{
+  border: none;
+  background: none;
+  color: #000;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+#bretour:focus{
+  color: #86b3d3;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+#bretour:hover{
+  color: #86b3d3;
+  border: none;
+  background: none;
+  transition:0.3s all;
+  cursor: pointer;
+}

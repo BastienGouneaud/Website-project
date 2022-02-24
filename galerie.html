@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="DUSOLEIL & GOUNEAUD">
+    <link rel="stylesheet" href="styles/galerie.css">
+    <title>INRS - Galerie</title>
+  </head>
+  <body>
+    <a href="index.html"><img id="logo" src="media/inrs.png" alt="inrs" style="float:left;"></a>    
+    <div id="menu">
+      <!--Partie 1 - Sommaire-->
+      <nav class="menu-nav">
+        <ul>
+          <li class="btn">
+            <a href="index.html">Accueil</a>
+          </li>
+          <li class="btn">
+            <a href="news.html">Actualité</a>
+          </li>
+          <li class="btn">
+            <a href="galerie.html">Galerie</a>
+          </li>
+          <li class="btn">
+            <a href="lancement.html">Lancements</a>
+          </li>
+          <li class="btn">||<span id="vertical_sep"></span></li>
+          <li class="btn">
+            <a href="contact.html">Contact</a>
+          </li>
+          <li class="btn">
+            <a href="apropos.html">À propos</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="content">
+      <div id="photo1">
+        <a href="https://www.nasa.gov/multimedia/imagegallery/iotd.html"><img src="media/Sanfrancisco.jpg" alt="san francisco"></a>
+        <div id="textephoto1">
+          <h3>San Francisco depuis l'espace</h3>
+          <p>L'équipage à bord de la Station spatiale internationale a pris cette image du membre de la Terre, ou de l'horizon, avec l'éclat du Soleil rayonnant au large de la côte ouest des États-Unis.</p>
+        </div>
+      </div>
+      <hr>
+      <div id="photo2">
+        <a href="https://www.nasa.gov/multimedia/imagegallery/iotd.html"><img src="media/Halloween.jpg" alt="halloween"></a>
+        <div id="textephoto2">
+          <h3>Halloween</h3>
+          <p>Région active du soleil qui ressemble étrangement à une tête de citrouille.</p>
+        </div>
+      </div>
+      <hr>
+      <div id="photo3">
+        <a href="https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/neutron_star_merger_still_3.png"><img src="media/neutron_star_merger_still_3.png" alt="neutron star"></a>
+        <div id="textephoto3">
+          <h3>Les étoiles à neutrons créent de l'or et du platine dans leur sillage</h3>
+          <p>Cette illustration montre le nuage de débris chaud, dense et en expansion dépouillé des étoiles à neutrons juste avant leur collision.</p>
+        </div>
+      </div>
+      <hr>
+      <div id="sound1">
+        <audio controls>
+          <source src="media/Sputnik_beep.ogg" type="audio/ogg">
+          <p>Votre navigateur ne prend pas en charge l'audio HTML. Voici un
+            un <a href="media/Sputnik_beep.ogg">lien vers le fichier audio</a> pour le télécharger.
+          </p>
+        </audio>
+        <div id="textsound1">
+          <h3>Signal audio de la sonde "Sputnik 1"</h3>
+          <p>Le signal que vous pouvez entendre a été le tout premier signal émis par un satellite artificiel.</p>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <form>
+      <input type="button" value="Retour" onclick="history.back()" id="bretour">
+    </form>
+    <script src="javascript/galerie.js"></script>
+  </body>
+</html>

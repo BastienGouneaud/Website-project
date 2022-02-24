@@ -1,0 +1,131 @@
+html{
+  font-family: arial;
+  padding: 0%;
+  margin: 0%;
+}
+
+body{
+  margin: 0%;
+  padding: 0%;
+}
+
+nav.menu-nav ul li.btn{
+	display: inline-block;
+}
+
+nav.menu-nav ul li.btn a{
+	text-decoration: none;
+	color: #fff;
+  /*color: #000;*/
+	background: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 50px;
+	padding-bottom: 5px;
+	margin-right: 20px;
+  font-weight: bold;
+}
+
+nav.menu-nav ul li.btn:hover a{
+  color: #DDD;
+	transition:0.3s all;
+}
+
+nav{
+  margin-right: 5%;
+}
+
+.btn{
+  color: #fff;
+}
+
+#vertical_sep{
+  margin-right: 10px;
+}
+
+#menu{
+  text-align: right;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #86b3d3;
+  width: 100%;
+}
+
+#logo{
+  padding-top: 0%;
+  margin-top: 1%;
+  margin-left: 20%;
+  height: 200px;
+}
+
+.content{
+  margin-left: 20%;
+  width: 60%;
+  /*position: fixed;*/
+}
+
+.gras{
+  font-weight: bold;
+}
+
+#actu_1{
+  margin-top: 50px;
+  padding-bottom: 150px;
+}
+
+#actu_1 img{
+  padding-right: 5%;
+}
+
+#actu_2{
+  padding-bottom: 120px;
+}
+
+#actu_2 img{
+  padding-left: 5%;
+  height: 225px;
+}
+
+#actu_3{
+  padding-bottom: 80px;
+}
+
+#actu_3 img{
+  padding-right: 5%;
+  width: 250px;
+}
+
+#actu_4{
+  padding-bottom: 60px;
+}
+
+#actu_4 img{
+  padding-left: 5%;
+}
+
+form{
+  text-align: center;
+}
+
+#bretour{
+  border: none;
+  background: none;
+  color: #000;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+#bretour:focus{
+  color: #86b3d3;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+#bretour:hover{
+  color: #86b3d3;
+  border: none;
+  background: none;
+  transition:0.3s all;
+  cursor: pointer;
+}

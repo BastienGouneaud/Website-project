@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="DUSOLEIL & GOUNEAUD">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>INRS - Accueil</title>
+  </head>
+  <body>
+    <video autoplay muted loop id="bg_video">
+      <source src="media/index_background_new.mp4" type="video/mp4">
+    </video>
+    <div id="pop_up_bonne_note_2021_bg">
+      <div id="pop_up_bonne_note_2021">
+        <p>
+          C'est avec honneur que nous vous presentons notre site développé afin de répondre aux multiples (y'en a un peu trop) consignes du projet d'Info1B. N'hésitez pas à nous mettre une très bonne note pour tout cet effort que nous avons déployé. En vous souhaitant une très bonne journée. Cordialement, Bastien & Yoan.
+        </p>
+        <button type="button" name="pop_up_bonne_note_2021_button" onclick="enlever_le_message()">Passer ce message bien chiant qui est sur tous les sites en 2021</button>
+      </div>
+    </div>
+    <div id="menu">
+      <!--Partie 1 - Sommaire-->
+      <nav class="menu-nav">
+        <ul>
+          <li class="btn">
+            <a href="index.html">Accueil</a>
+          </li>
+          <li class="btn">
+            <a href="news.html">Actualité</a>
+          </li>
+          <li class="btn">
+            <a href="galerie.html">Galerie</a>
+          </li>
+          <li class="btn">
+            <a href="lancement.html">Lancements</a>
+          </li>
+          <li class="btn">
+            <a href="contact.html">Contact</a>
+          </li>
+          <li class="btn">
+            <a href="apropos.html">À propos</a>
+          </li>
+        </ul>
+      </nav>
+      <!--Partie 2 - Présentation-->
+      <div id="shortp">
+        <h2>"It's not rocket science"</h2>
+        <p>Créé par deux étudiants pour leur projet universitaire, ce site à pour but de présenter les différentes innovations technologiques liées à l'aérospatial.<br><br>
+        Nous vous proposerons par la même occasion de magnifiques plans de vues sur ces innovations ainsi qu'une couverture de l'actualité des lancements dans le domaine de l'aérospatial.</p>
+      </div>
+      <form>
+        <input type="button" value="Retour" onclick="history.back()" class="bretour">
+        <input type="button" value="Pause Video" onclick="pause_play()" class="bretour" id="play_pause">
+      </form>
+    </div>
+    <script src="javascript/index.js"></script>
+  </body>
+</html>

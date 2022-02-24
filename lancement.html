@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="DUSOLEIL & GOUNEAUD">
+    <link rel="stylesheet" href="styles/lancement.css">
+    <title>INRS - Lancement</title>
+  </head>
+  <body>
+    <a href="index.html"><img id="logo" src="media/inrs.png" alt="inrs" style="float:left;"></a>
+    <div id="menu">
+      <nav class="menu-nav">
+        <ul>
+          <li class="btn">
+            <a href="index.html">Accueil</a>
+          </li>
+          <li class="btn">
+            <a href="news.html">Actualité</a>
+          </li>
+          <li class="btn">
+            <a href="galerie.html">Galerie</a>
+          </li>
+          <li class="btn">
+            <a href="lancement.html">Lancements</a>
+          </li>
+          <li class="btn">||<span id="vertical_sep"></span></li>
+          <li class="btn">
+            <a href="contact.html">Contact</a>
+          </li>
+          <li class="btn">
+            <a href="apropos.html">À propos</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ky5l9ZxsG9M" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+    <div id="date"></div>
+    <div id="diff"></div>
+    <h3 id="programme">Liste des prochains lancements prévus à travers le globe:</h3>
+    <table id="tableau">
+      <thead>
+        <tr>
+          <td>Date</td>
+          <td>Lanceur</td>
+          <td>Base de lancement</td>
+        </tr>
+      </thead>
+      <tr>
+        <td>7 Janvier</td>
+        <td>Falcon 9 Bloc 5</td>
+        <td>Cap Canaveral (USA)</td>
+      </tr>
+      <tr>
+        <td>7 Janvier</td>
+        <td>Longue Marche 3 B</td>
+        <td>Xichang (Chine)</td>
+      </tr>
+      <tr>
+        <td>15 Janvier</td>
+        <td>Longue Marche 2D</td>
+        <td>Taiyuan (Chine)</td>
+      </tr>
+      <tr>
+        <td>16 Janvier</td>
+        <td>Kuaizhou 1A</td>
+        <td>Jiuquan (Chine)</td>
+      </tr>
+      <tr>
+        <td>16 Janvier</td>
+        <td>Ariane 5 ECA</td>
+        <td>Kourou (France)</td>
+      </tr>
+      <tr>
+        <td>29 Janvier</td>
+        <td>Falcon 9 Bloc 5</td>
+        <td>Cap Canaveral (USA)</td>
+      </tr>
+    </table>
+    <hr id="bottom_rule">
+    <form>
+      <input type="button" value="Retour" onclick="history.back()" id="bretour">
+    </form>
+    <script src="javascript/lancement.js"></script>
+  </body>
+</html>
