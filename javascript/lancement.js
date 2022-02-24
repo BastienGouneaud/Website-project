@@ -18,6 +18,6 @@ function difference(){
   var jours_diff = temps_diff / (1000 * 3600 * 24);
   var temps = Math.floor(jours_diff);
   var heure = Math.floor(((jours_diff-(Math.floor(jours_diff)))*24));
-  message+="Il reste "+temps+" jours et "+heure+" heures avant le lancement de SpaceX avec Thomas Pesquet"
+  message+="Il reste "+temps+" jours et "+heure+" heures avant la fenêtre de lancement de Artemis I"
   document.getElementById('diff').innerHTML=message;
 }
