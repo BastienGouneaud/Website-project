@@ -59,7 +59,8 @@ nav{
 }
 
 .content{
-  width: 100%;
+  width: 60%;
+  margin-left: 20%;
 }
 
 #photo1{
@@ -75,6 +76,7 @@ nav{
 
 #textephoto1{
   position: absolute;
+  width: 40%;
   padding-left: 430px;
   top: 300px;
 }
