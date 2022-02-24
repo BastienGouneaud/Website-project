@@ -13,7 +13,7 @@ function date(){
 function difference(){
   var message='';
   var date_actuelle=new Date();
-  var date_lancement=new Date('March 30, 2021 00:00:00');
+  var date_lancement=new Date('June 21, 2022 00:00:00');
   var temps_diff = date_lancement.getTime()-date_actuelle.getTime();
   var jours_diff = temps_diff / (1000 * 3600 * 24);
   var temps = Math.floor(jours_diff);
